@@ -23,3 +23,4 @@ To enable this feature on Arduino Due, add the following statement to setup() fu
 analogReadResolution(ADC_BITS); This will set ADC_BITS to 12 (Arduino Due), EmonLib will otherwise default to 10 analogReadResolution(ADC_BITS);. 
 See blog post on using Arduino Due as energy monitor: http://boredomprojects.net/index.php/projects/home-energy-monitor
 
+Update (WIP): 29th May 2016: Support Added for Quark One (Atmel XMEGA 128A4U, 12-bit ADC) by uberflyx.
